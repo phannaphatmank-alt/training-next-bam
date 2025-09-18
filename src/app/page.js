@@ -8,56 +8,7 @@ export default function Home(){
     <div class="font-kanit antialiased bg-gray-50 text-gray-900">
     {/* <!-- Header Section --> */}
     <Navbar />
-    <header class="bg-white shadow-sm sticky top-0 z-50">
-      <div class="container mx-auto px-6">
-        <div class="flex items-center justify-between h-16">
-          {/* <!-- Logo --> */}
-          <div class="flex items-center">
-            <div class="text-2xl font-bold text-gray-900">
-              <span class="text-blue-600">Your</span>Brand
-            </div>
-          </div>
-
-          {/* <!-- Navigation --> */}
-          <nav class="hidden md:flex items-center space-x-8">
-            <a
-              href="#"
-              class="text-gray-700 hover:text-blue-600 transition-colors duration-300"
-              >หน้าแรก</a
-            >
-            <a
-              href="#"
-              class="text-gray-700 hover:text-blue-600 transition-colors duration-300"
-              >บริการ</a
-            >
-            <a
-              href="#"
-              class="text-gray-700 hover:text-blue-600 transition-colors duration-300"
-              >เกี่ยวกับเรา</a
-            >
-            <a
-              href="#"
-              class="text-gray-700 hover:text-blue-600 transition-colors duration-300"
-              >ติดต่อ</a
-            >
-          </nav>
-
-          {/* <!-- CTA Button --> */}
-          <div class="hidden md:block">
-            <button
-              class="bg-blue-600 text-white px-6 py-2 rounded-md hover:bg-blue-700 transition-colors duration-300"
-            >
-              เริ่มต้นใช้งาน
-            </button>
-          </div>
-
-          {/* <!-- Mobile Menu Button --> */}
-          <button class="md:hidden text-gray-700">
-            <i class="fas fa-bars text-xl"></i>
-          </button>
-        </div>
-      </div>
-    </header>
+    
 
     {/* <!-- Hero Section --> */}
     <section class="bg-gradient-to-br from-blue-50 to-indigo-100 py-20">
